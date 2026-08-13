@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Comments from "../components/Comments";
 
 const items = [
   {
@@ -121,6 +122,7 @@ export default function WhyUsSection() {
         </motion.div>
       </div>
     </section>
+    <Comments/>
           <Footer/>
           </>
   );

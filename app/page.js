@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Link from "next/link";
+import Comments from "./components/Comments";
 
 const page = () => {
   return (
@@ -85,13 +86,13 @@ const page = () => {
         {/* BACKGROUND GLOW */}
         <div className="absolute -top-40 -right-40 w-96 h-96 bg-purple-600/30 blur-[120px]" />
       </section>
+              <Comments/>
     <section className="relative min-h-screen flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white overflow-hidden">
       
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-600 via-indigo-900 to-indigo-700 opacity-90" />
 
       <div className="relative z-10 max-w-4xl px-6 text-center">
-
 
         {/* Title */}
         <motion.h1
